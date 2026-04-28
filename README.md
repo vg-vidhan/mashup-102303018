@@ -1,21 +1,21 @@
-# 🎵 Music Mashup Web Application  
-### 📌 Roll Number: 102303568  
+#  Music Mashup Web Application  
+###  Roll Number: 102303018  
 
 ---
 
-## 🌟 Project Overview
+##  Project Overview
 
 This project implements a **Music Mashup Generator Web Application** using Python and Flask.
 
 The system automatically:
 
-- 🔍 Searches YouTube videos of a given singer  
-- ⬇️ Downloads multiple videos  
-- 🎧 Extracts audio from each video  
-- ✂️ Trims the first *Y seconds* of each audio  
-- 🔀 Merges all trimmed clips into a single mashup  
-- 📦 Compresses the final output into a ZIP file  
-- 📧 Sends the ZIP file to the user's email  
+-  Searches YouTube videos of a given singer  
+-  Downloads multiple videos  
+-  Extracts audio from each video  
+-  Trims the first *Y seconds* of each audio  
+-  Merges all trimmed clips into a single mashup  
+-  Compresses the final output into a ZIP file  
+-  Sends the ZIP file to the user's email  
 
 This project fulfills the **Mashup Assignment requirements** using PyPI libraries.
 
@@ -37,14 +37,14 @@ All external libraries are installed via **PyPI**.
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 
 > Note: Runtime folders are used dynamically and may not contain files in the repository.
 
 ---
 
-## ⚙️ How the System Works
+##  How the System Works
 
 1️⃣ User enters:
 - Singer name  
@@ -63,9 +63,9 @@ All external libraries are installed via **PyPI**.
 
 ---
 
-## ▶️ How to Run the Application
+##  How to Run the Application
 
-### 1️⃣ Install Dependencies
+###  Install Dependencies
 
 ```bash
 pip install flask yt-dlp moviepy pydub
